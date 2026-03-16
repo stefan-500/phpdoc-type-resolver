@@ -15,6 +15,10 @@ public class DocTag {
         return typeExpression;
     }
 
+    public String getValue() {
+        return typeExpression;
+    }
+
     public String getVariableName() {
         return variableName;
     }

@@ -1,21 +1,9 @@
 # PHP Variable Type Resolver
 
-This is a small Java project for infering a PHP variable type from its `@var` PHPDoc annotation.
+Small Java 21 utility that models a `@var`-based type inference API for PHP variables.
 
-## Tech Stack
-
-- Java 21
-- Gradle
-- JUnit 5
-
-## Running tests
-To run the tests, execute the following command in the project directory:  
-
-Linux/Mac:
+## Commands
+To run the build and tests, execute the following command in the project directory:
 ```bash
-./gradlew test
-```
-Windows:
-```bash
-gradlew test
+./gradlew build
 ```
